@@ -1,4 +1,4 @@
-# Introducción
+# 🎲 GAME OF LIFE 🎲
 
   ![LOGO](GAME-OF-LIFE/img/gameOfLifeICO.gif "Icono del Game of life")
 
