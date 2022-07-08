@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Press+Start+2P&family=Roboto:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: "20PX";
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+#izq {
+  background-color: #000;
+  color: white;
+  display: inline-block;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50vh;
+}
+#izq #text-izq {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  height: 100vh;
+  justify-content: center;
+  width: 43vh;
+}
+
+#der {
+  background: #000;
+  color: white;
+  display: inline-block;
+  height: 100vh;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50vh;
+}
+#der #text-der {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  height: 100vh;
+  justify-content: center;
+  width: 43vh;
+}
+
+#lienzo {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  height: 100vh;
+  left: 25%;
+  position: absolute;
+  width: 100vh;
+}
+
+@media screen and (max-width: 1219px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #izq {
+    background-color: #000;
+    color: white;
+    display: inline-block;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30vh;
+  }
+  #izq #text-izq {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    height: 100vh;
+    justify-content: center;
+    transform: rotate(-90deg) translateY(-40%);
+    width: 100vh;
+  }
+
+  #der {
+    background: #000;
+    color: white;
+    display: inline-block;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30vh;
+  }
+  #der #text-der {
+    align-items: flex-start;
+    display: flex;
+    font-size: 30px;
+    height: 100vh;
+    justify-content: start;
+    transform: rotate(90deg) translateY(60%) translateX(10%);
+    width: 50vh;
+  }
+
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 10%;
+    position: absolute;
+    width: 100vh;
+  }
+}
+@media screen and (max-width: 809px) {
+  #izq {
+    background-color: #000;
+    color: white;
+    display: inline-block;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10vh;
+  }
+  #izq #text-izq {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    height: 100vh;
+    justify-content: center;
+    transform: rotate(-90deg) translateY(-45%);
+    width: 100vh;
+  }
+
+  #der {
+    background: #000;
+    color: white;
+    display: inline-block;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10vh;
+  }
+  #der #text-der {
+    align-items: flex-start;
+    display: flex;
+    font-size: 30px;
+    height: 100vh;
+    justify-content: start;
+    transform: rotate(90deg) translateY(70%) translateX(10%);
+    width: 50vh;
+  }
+
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 5%;
+    position: absolute;
+    width: 100vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 5%;
+    position: absolute;
+    width: 90vh;
+  }
+}
+@media screen and (max-width: 699px) {
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 5%;
+    position: absolute;
+    width: 80vh;
+  }
+}
+@media screen and (max-width: 616px) {
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 5%;
+    position: absolute;
+    width: 70vh;
+  }
+}
+@media screen and (max-width: 565px) {
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 5%;
+    position: absolute;
+    width: 70vh;
+  }
+}
+@media screen and (max-width: 538px) {
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 5%;
+    position: absolute;
+    width: 60vh;
+  }
+}
+@media screen and (max-width: 510px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #izq {
+    background-color: #000;
+    color: white;
+    display: inline-block;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10vh;
+  }
+  #izq #text-izq {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    height: 100vh;
+    justify-content: center;
+    transform: rotate(-90deg) translateY(-45%);
+    width: 100vh;
+  }
+
+  #der {
+    background: #000;
+    color: white;
+    display: inline-block;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10vh;
+  }
+  #der #text-der {
+    align-items: flex-start;
+    display: flex;
+    font-size: 30px;
+    height: 100vh;
+    justify-content: start;
+    transform: rotate(90deg) translateY(70%) translateX(10%);
+    width: 50vh;
+  }
+
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 5%;
+    position: absolute;
+    width: 60vh;
+  }
+}
+@media screen and (max-width: 463px) {
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 15%;
+    position: absolute;
+    width: 50vh;
+  }
+}
+@media screen and (max-width: 429px) {
+  #lienzo {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100vh;
+    left: 15%;
+    position: absolute;
+    width: 40vh;
+  }
+}/*# sourceMappingURL=style.css.map */
