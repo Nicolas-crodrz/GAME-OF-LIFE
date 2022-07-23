@@ -29,7 +29,7 @@ Para usar este proyecto solo tienes que habrir el html.
 
 ### 🔌 Instalación
 
-- No se requiere de ninguna instalación.
+- No se requiere de ninguna instalación. 
 
 ### 📦 Comandos
 
