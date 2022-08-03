@@ -2,7 +2,7 @@
 
   ![LOGO](./img/gameOfLifeICO.gif "Icono del Game of life")
 
-- El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970.
+- El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970. 
   
 ## 📒ÍNDICE
 
